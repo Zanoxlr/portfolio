@@ -16,11 +16,30 @@ export const projects: Project[] = [
       sl: 'SaaS za klicne centre',
     },
     description: {
-      en: 'SaaS platform optimizing call center operations for major Slovenian telecom providers — Telekom Slovenije, Telemach, T2, and A1. Saves a team of 11 agents 90 hours per month (€1,755/mo).',
-      sl: 'SaaS platforma za optimizacijo klicnih centrov za Telekom Slovenije, Telemach, T2 in A1. Ekipi 11 agentov prihrani 90 ur mesečno (1.755 €/mes).',
+      en: 'SaaS platform optimizing call center operations for major Slovenian telecom providers — Telekom Slovenije, Telemach, T2, and A1. Includes a telecom offer calculator for instant package comparison and savings estimates. Saves a team of 11 agents 90 hours per month (€1,755/mo).',
+      sl: 'SaaS platforma za optimizacijo klicnih centrov za Telekom Slovenije, Telemach, T2 in A1. Vključuje kalkulator ponudb za takojšnjo primerjavo paketov in izračun prihrankov. Ekipi 11 agentov prihrani 90 ur mesečno (1.755 €/mes).',
     },
     tech: ['C#', '.NET', 'Blazor', 'Tailwind CSS', 'EF Core', 'MySQL'],
-    confidential: true,
+    images: ['/images/callcenter.png'],
+  },
+  {
+    id: 'gps-si',
+    title: {
+      en: 'GPS d.o.o. — Corporate Website',
+      sl: 'GPS d.o.o. — Korporativna spletna stran',
+    },
+    description: {
+      en: 'Corporate website for a Slovenian architecture and geodesy firm.',
+      sl: 'Korporativna spletna stran za slovensko podjetje s področja arhitekture in geodezije.',
+    },
+    tech: ['WordPress', 'Elementor'],
+    images: [
+      '/images/gps-pool-villa.jpg',
+      '/images/gps-building.jpg',
+      '/images/gps-terrace.jpg',
+      '/images/gps-lemon-villa.jpg',
+    ],
+    link: 'https://www.gps.si/',
   },
   {
     id: 'fairreplay',
@@ -55,24 +74,5 @@ export const projects: Project[] = [
     tech: ['ASP.NET Core', 'Blazor', 'EF Core', 'MySQL'],
     images: ['/images/ijf-site.jpg'],
     link: 'https://www.ijf.org/',
-  },
-  {
-    id: 'gps-si',
-    title: {
-      en: 'GPS d.o.o. — Corporate Website',
-      sl: 'GPS d.o.o. — Korporativna spletna stran',
-    },
-    description: {
-      en: 'Corporate website for a Slovenian architecture and geodesy firm.',
-      sl: 'Korporativna spletna stran za slovensko podjetje s področja arhitekture in geodezije.',
-    },
-    tech: ['WordPress', 'Elementor'],
-    images: [
-      '/images/gps-pool-villa.jpg',
-      '/images/gps-building.jpg',
-      '/images/gps-terrace.jpg',
-      '/images/gps-lemon-villa.jpg',
-    ],
-    link: 'https://www.gps.si/',
   },
 ]

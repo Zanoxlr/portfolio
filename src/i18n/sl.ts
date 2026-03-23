@@ -7,7 +7,7 @@ const sl: Translations = {
   hero: {
     eyebrow: 'Full-Stack Razvijalec',
     headline: 'Programska oprema, ki deluje.',
-    subheadline: 'Čist backend. Hiter frontend. Mobile First.',
+    subheadline: 'Mobile First. Hiter frontend. Čist backend.',
     stack: '.Net, Blazor, React, Tailwind, MySQL',
     name: 'Žan Močnik',
     cta_projects: 'Moji projekti',

@@ -16,7 +16,9 @@ function ImageGallery({ images }: { images: string[] }) {
         <img
           src={images[active]}
           alt=""
-          className="w-full h-full object-cover object-top transition-opacity duration-300"
+          className={`w-full h-full object-cover transition-opacity duration-300 ${
+            images[active].includes('-site.') || images[active].includes('callcenter') ? 'object-top' : 'object-center'
+          }`}
         />
         {images.length > 1 && (
           <span className="absolute bottom-2 right-2 text-xs bg-black/60 text-white px-2 py-0.5 rounded-full">

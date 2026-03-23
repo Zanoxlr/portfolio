@@ -5,7 +5,7 @@ const en = {
   hero: {
     eyebrow: 'Full-Stack Developer',
     headline: 'Software that ships.',
-    subheadline: 'Clean backend. Fast frontend. Mobile First.',
+    subheadline: 'Mobile First. Fast frontend. Clean backend.',
     stack: '.Net, Blazor, React, Tailwind, MySQL',
     name: 'Žan Močnik',
     cta_projects: 'See My Work',

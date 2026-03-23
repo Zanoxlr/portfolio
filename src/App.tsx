@@ -4,9 +4,10 @@ import sl from './i18n/sl'
 import Nav from './components/Nav'
 import Background from './components/Background'
 import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
+import About from './components/About'
+import Boxing from './components/Boxing'
 import Contact from './components/Contact'
 
 type Lang = 'en' | 'sl'
@@ -36,9 +37,10 @@ export default function App() {
         <Nav />
         <main>
           <Hero />
-          <About />
-          <Skills />
           <Projects />
+          <Skills />
+          <About />
+          <Boxing />
           <Contact />
         </main>
         <footer className="text-center py-8 text-gray-600 text-sm">
