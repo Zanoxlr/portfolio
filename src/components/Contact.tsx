@@ -4,7 +4,7 @@ export default function Contact() {
   const { t } = useT()
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 bg-gray-950">
+    <section id="contact" className="py-20 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4 gradient-text">{t.contact.heading}</h2>
         <p className="text-gray-400 mb-10 text-lg max-w-md mx-auto">{t.contact.body}</p>

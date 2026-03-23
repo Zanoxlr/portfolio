@@ -2,6 +2,7 @@ import { createContext, useContext, useState } from 'react'
 import en, { type Translations } from './i18n/en'
 import sl from './i18n/sl'
 import Nav from './components/Nav'
+import Background from './components/Background'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -31,6 +32,7 @@ export default function App() {
   return (
     <LangContext.Provider value={{ lang, t, setLang }}>
       <div className="min-h-screen">
+        <Background />
         <Nav />
         <main>
           <Hero />

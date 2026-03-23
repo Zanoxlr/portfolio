@@ -4,7 +4,7 @@ export default function Skills() {
   const { t } = useT()
 
   return (
-    <section id="skills" className="py-20 px-4 sm:px-6 bg-gray-950">
+    <section id="skills" className="py-20 px-4 sm:px-6">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold mb-12 gradient-text">{t.skills.heading}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
