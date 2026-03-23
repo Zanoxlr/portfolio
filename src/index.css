@@ -5,10 +5,11 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    min-width: 320px;
   }
 
   body {
-    @apply bg-[#0a0a0a] text-gray-100 font-sans antialiased;
+    @apply bg-[#0a0a0a] text-gray-100 font-sans antialiased overflow-x-hidden;
   }
 }
 
@@ -22,6 +23,6 @@
   }
 
   .card {
-    @apply bg-gray-900 rounded-2xl p-6 border border-gray-800;
+    @apply bg-gray-900 rounded-2xl p-4 sm:p-6 border border-gray-800;
   }
 }

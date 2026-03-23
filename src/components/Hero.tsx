@@ -9,10 +9,10 @@ export default function Hero() {
         <p className="text-xs sm:text-sm font-semibold tracking-widest uppercase text-violet-400 mb-6">
           {t.hero.eyebrow}
         </p>
-        <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight mb-4 gradient-text">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight mb-4 gradient-text">
           {t.hero.headline}
         </h1>
-        <p className="text-xl sm:text-2xl font-medium text-gray-300 mb-3">
+        <p className="text-lg sm:text-xl md:text-2xl font-medium text-gray-300 mb-3">
           {t.hero.subheadline}
         </p>
         <p className="text-sm text-gray-600 mb-2 tracking-wider font-mono">

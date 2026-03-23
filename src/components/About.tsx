@@ -14,10 +14,10 @@ export default function About() {
             <p className="text-gray-300 text-lg leading-relaxed md:flex-1">
               {t.about.body}
             </p>
-            <div className="flex flex-row md:flex-col gap-6 md:gap-8 shrink-0">
+            <div className="grid grid-cols-3 md:grid-cols-1 gap-3 md:gap-8 shrink-0 w-full md:w-auto">
               {t.about.stats.map((stat) => (
-                <div key={stat.label} className="card text-center min-w-[100px]">
-                  <div className="text-2xl font-extrabold gradient-text">{stat.value}</div>
+                <div key={stat.label} className="card text-center px-2 py-4 md:min-w-[100px]">
+                  <div className="text-xl md:text-2xl font-extrabold gradient-text">{stat.value}</div>
                   <div className="text-xs text-gray-500 mt-1 leading-tight">{stat.label}</div>
                 </div>
               ))}
