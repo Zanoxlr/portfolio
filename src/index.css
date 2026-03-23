@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#0a0a0a] text-gray-100 font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-to-r from-violet-500 to-blue-400 bg-clip-text text-transparent;
+  }
+
+  .gradient-border {
+    @apply border border-violet-500/20;
+  }
+
+  .card {
+    @apply bg-gray-900 rounded-2xl p-6 border border-gray-800;
+  }
+}

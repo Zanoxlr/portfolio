@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.crt
+*.key
+.env
+.DS_Store
