@@ -16,7 +16,7 @@ export const projects: Project[] = [
       sl: 'SaaS za klicne centre',
     },
     description: {
-      en: 'SaaS platform optimizing call center operations for major Slovenian telecom providers — Telekom Slovenije, Telemach, T2, and A1. Includes a telecom offer calculator for instant package comparison and savings estimates. Saves a team of 11 agents 90 hours per month (€1,755/mo).',
+      en: 'SaaS platform optimizing call center operations for major Slovenian telecom providers: Telekom Slovenije, Telemach, T2, and A1. Includes a telecom offer calculator for instant package comparison and savings estimates. Saves a team of 11 agents 90 hours per month (€1,755/mo).',
       sl: 'SaaS platforma za optimizacijo klicnih centrov za Telekom Slovenije, Telemach, T2 in A1. Vključuje kalkulator ponudb za takojšnjo primerjavo paketov in izračun prihrankov. Ekipi 11 agentov prihrani 90 ur mesečno (1.755 €/mes).',
     },
     tech: ['C#', '.NET', 'Blazor', 'Tailwind CSS', 'EF Core', 'MySQL'],
@@ -25,8 +25,8 @@ export const projects: Project[] = [
   {
     id: 'gps-si',
     title: {
-      en: 'GPS d.o.o. — Corporate Website',
-      sl: 'GPS d.o.o. — Korporativna spletna stran',
+      en: 'GPS d.o.o. - Corporate Website',
+      sl: 'GPS d.o.o. - Korporativna spletna stran',
     },
     description: {
       en: 'Corporate website for a Slovenian architecture and geodesy firm.',
@@ -44,8 +44,8 @@ export const projects: Project[] = [
   {
     id: 'fairreplay',
     title: {
-      en: 'FairReplay — VAR System',
-      sl: 'FairReplay — VAR sistem',
+      en: 'FairReplay - VAR System',
+      sl: 'FairReplay - VAR sistem',
     },
     description: {
       en: 'Affordable video replay (VAR) system for live sports match review. Developed ~90% of the Viewer app, deployed at world judo tournaments in Serbia and Hungary. Presented at IBC Trade Show 2023.',

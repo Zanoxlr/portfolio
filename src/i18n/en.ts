@@ -13,7 +13,7 @@ const en = {
   },
   about: {
     heading: 'About Me',
-    body: "Full-stack developer with 5+ years of commercial experience across backend, frontend, and mobile. Built a VAR system deployed at world judo tournaments, match administration software for the International Judo Federation, and a call center SaaS used by major Slovenian telecom providers. Currently freelancing — open to remote project-based and long-term engagements.",
+    body: "Full-stack developer with 5+ years of commercial experience across backend, frontend, and mobile. Built a VAR system deployed at world judo tournaments, match administration software for the International Judo Federation, and a call center SaaS used by major Slovenian telecom providers. Currently freelancing, open to remote project-based and long-term engagements.",
     stats: [
       { value: '5+', label: 'Years Experience' },
       { value: '5+', label: 'Shipped Projects' },
@@ -21,7 +21,7 @@ const en = {
     ],
     boxing: {
       heading: 'Beyond the Screen',
-      body: "I compete in boxing — won matches, and led training sessions for 25 people. The same mindset I bring to the ring is what I bring to every project: discipline, focus, and finishing what I start. No excuses, just results.",
+      body: "I compete in boxing. Won matches, and led training sessions for 25 people. The same mindset I bring to the ring is what I bring to every project: discipline, focus, and finishing what I start. No excuses, just results.",
       traits: ['Disciplined', 'Gets things done', 'Reliable', 'Competitive'],
     },
   },

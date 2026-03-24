@@ -19,7 +19,7 @@ export default function Hero() {
           {t.hero.stack}
         </p>
         <p className="text-sm text-gray-700 mb-10">
-          — {t.hero.name}
+          - {t.hero.name}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

@@ -15,7 +15,7 @@ const sl: Translations = {
   },
   about: {
     heading: 'O meni',
-    body: 'Full-stack razvijalec s 5+ leti komercialnih izkušenj na področju zalednega, čelnega in mobilnega razvoja. Razvil VAR sistem za svetovne judo tekme, sistem za upravljanje tekmovanj za Mednarodno judo zvezo in SaaS za klicne centre, ki ga uporabljajo večji slovenski telekomunikacijski operaterji. Trenutno freelance — na voljo za delo na daljavo in dolgoročno sodelovanje.',
+    body: 'Full-stack razvijalec s 5+ leti komercialnih izkušenj na področju zalednega, čelnega in mobilnega razvoja. Razvil VAR sistem za svetovne judo tekme, sistem za upravljanje tekmovanj za Mednarodno judo zvezo in SaaS za klicne centre, ki ga uporabljajo večji slovenski telekomunikacijski operaterji. Trenutno freelance, na voljo za delo na daljavo in dolgoročno sodelovanje.',
     stats: [
       { value: '5+', label: 'Let izkušenj' },
       { value: '5+', label: 'Realiziranih projektov' },
@@ -23,7 +23,7 @@ const sl: Translations = {
     ],
     boxing: {
       heading: 'Izven zaslona',
-      body: 'Tekmovalno boksiram — zmagal sem na tekmah in vodil treninge za 25 ljudi. Enak miselni vzorec prinašam v vsak projekt: disciplina, fokus in dokončanje tega, kar začnem. Brez izgovorov, samo rezultati.',
+      body: 'Tekmovalno boksiram. Zmagal sem na tekmah in vodil treninge za 25 ljudi. Enak miselni vzorec prinašam v vsak projekt: disciplina, fokus in dokončanje tega, kar začnem. Brez izgovorov, samo rezultati.',
       traits: ['Discipliniran', 'Dokonča, kar začne', 'Zanesljiv', 'Tekmovalen'],
     },
   },
