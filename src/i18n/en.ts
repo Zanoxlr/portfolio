@@ -16,7 +16,7 @@ const en = {
     body: "Full-stack developer with 5+ years of commercial experience across backend, frontend, and mobile. Built a VAR system deployed at world judo tournaments, match administration software for the International Judo Federation, and a call center SaaS used by major Slovenian telecom providers. Currently freelancing — open to remote project-based and long-term engagements.",
     stats: [
       { value: '5+', label: 'Years Experience' },
-      { value: '5', label: 'Shipped Projects' },
+      { value: '5+', label: 'Shipped Projects' },
       { value: 'EN · SL', label: 'Languages' },
     ],
     boxing: {

@@ -18,7 +18,7 @@ const sl: Translations = {
     body: 'Full-stack razvijalec s 5+ leti komercialnih izkušenj na področju zalednega, čelnega in mobilnega razvoja. Razvil VAR sistem za svetovne judo tekme, sistem za upravljanje tekmovanj za Mednarodno judo zvezo in SaaS za klicne centre, ki ga uporabljajo večji slovenski telekomunikacijski operaterji. Trenutno freelance — na voljo za delo na daljavo in dolgoročno sodelovanje.',
     stats: [
       { value: '5+', label: 'Let izkušenj' },
-      { value: '5', label: 'Realiziranih projektov' },
+      { value: '5+', label: 'Realiziranih projektov' },
       { value: 'SL · EN', label: 'Jeziki' },
     ],
     boxing: {
