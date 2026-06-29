@@ -10,17 +10,18 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'callcenter-saas',
+    id: 'instantinvoice',
     title: {
-      en: 'Call Center SaaS',
-      sl: 'SaaS za klicne centre',
+      en: 'InstantInvoice - Compare & Quote SaaS',
+      sl: 'InstantInvoice - SaaS za primerjavo in ponudbe',
     },
     description: {
-      en: 'SaaS platform optimizing call center operations for major Slovenian telecom providers: Telekom Slovenije, Telemach, T2, and A1. Includes a telecom offer calculator for instant package comparison and savings estimates. Saves a team of 11 agents 90 hours per month (€1,755/mo).',
-      sl: 'SaaS platforma za optimizacijo klicnih centrov za Telekom Slovenije, Telemach, T2 in A1. Vključuje kalkulator ponudb za takojšnjo primerjavo paketov in izračun prihrankov. Ekipi 11 agentov prihrani 90 ur mesečno (1.755 €/mes).',
+      en: 'A compare-and-quote engine for brokers selling across many providers: rank your own suppliers and send a branded quote in seconds, on the first call. Proven on a live 11-agent telecom floor (Telekom Slovenije, Telemach, T2, A1), cutting quote time from 84s to 22s and saving €1,755/mo.',
+      sl: 'Orodje za primerjavo in pripravo ponudb za posrednike, ki prodajajo izdelke več ponudnikov: razvrsti svoje ponudbe in pošlji ponudbo z lastno znamko v nekaj sekundah, že na prvem klicu. Preizkušeno v živo na 11-članski telekomski ekipi (Telekom Slovenije, Telemach, T2, A1), kjer je čas priprave ponudbe skrajšalo z 84 s na 22 s in prihranilo 1.755 €/mes.',
     },
     tech: ['C#', '.NET', 'Blazor', 'Tailwind CSS', 'EF Core', 'MySQL'],
-    images: ['/images/callcenter.png'],
+    images: ['/images/instantinvoice.png', '/images/instantinvoice-agent.png'],
+    link: 'https://instantinvoice.pages.dev/',
   },
   {
     id: 'gps-si',

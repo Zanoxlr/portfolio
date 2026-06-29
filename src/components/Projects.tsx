@@ -17,7 +17,7 @@ function ImageGallery({ images }: { images: string[] }) {
           src={images[active]}
           alt=""
           className={`w-full h-full object-cover transition-opacity duration-300 ${
-            images[active].includes('-site.') || images[active].includes('callcenter') ? 'object-top' : 'object-center'
+            images[active].includes('-site.') ? 'object-top' : 'object-center'
           }`}
         />
         {images.length > 1 && (
