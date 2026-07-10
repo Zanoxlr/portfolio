@@ -21,7 +21,7 @@ export const projects: Project[] = [
     },
     tech: ['C#', '.NET', 'Blazor', 'Tailwind CSS', 'EF Core', 'MySQL'],
     images: ['/images/instantinvoice.png', '/images/instantinvoice-agent.png'],
-    link: 'https://instantinvoice.pages.dev/',
+    link: 'https://tryinstantinvoice.com/?r=zmport',
   },
   {
     id: 'gps-si',

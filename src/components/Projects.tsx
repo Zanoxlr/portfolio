@@ -62,7 +62,7 @@ export default function Projects() {
         <h2 className="text-3xl sm:text-4xl font-bold mb-12 gradient-text">{t.projects.heading}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project) => (
-            <div key={project.id} className="card flex flex-col gap-4">
+            <div key={project.id} data-project={project.id} className="card flex flex-col gap-4">
               {project.images && <ImageGallery images={project.images} />}
               <h3 className="text-lg font-bold text-white">{project.title[lang]}</h3>
               <p className="text-gray-400 text-sm leading-relaxed flex-1">
@@ -82,6 +82,7 @@ export default function Projects() {
                 {project.link ? (
                   <a
                     href={project.link}
+                    data-plink={project.id}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-sm font-semibold text-violet-400 hover:text-violet-300 transition-colors"
