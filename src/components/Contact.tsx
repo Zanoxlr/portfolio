@@ -23,6 +23,14 @@ export default function Contact() {
           >
             {t.contact.whatsapp}
           </a>
+          <a
+            href="https://www.linkedin.com/in/%C5%BEan-mo%C4%8Dnik-3b0293347/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 rounded-full font-semibold border border-gray-700 text-gray-300 hover:border-violet-500 hover:text-violet-400 transition-colors"
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
     </section>
